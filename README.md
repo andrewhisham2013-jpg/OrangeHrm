@@ -19,29 +19,6 @@ A professional UI test automation framework built to validate end-to-end user jo
 * **Build & Dependency Management:** Maven
 * **Reporting:** Allure Reports (v2.35.2)
 
----
-
-## 📁 Project Structure
-
-```text
-OrangeHRM/
-├── src/
-│   ├── main/java/org/example/         # Page Objects & Operational Elements
-│   │   ├── admin/
-│   │   ├── myinfo/
-│   │   ├── pim/
-│   │   ├── time/
-│   │   └── pages/
-│   └── test/java/                     # Execution Scripts & Testing Assertions
-│       ├── base/
-│       ├── employeeDependents/
-│       ├── employeeProfile/
-│       ├── employeeReports/
-│       ├── reuse/
-│       ├── timeSheet/
-│       └── userAssignment/
-├── pom.xml                            # Project Object Model dependencies
-└── Testing.xml                        # TestNG suite mapping distribution
 💻 Local Setup & Execution
 1. Clone the Repository
 Bash
@@ -78,3 +55,28 @@ To watch the comprehensive framework walkthrough, execution suites, and see how 
 👉 **[Watch the Framework Execution Demo Video Here](https://github.com/andrewhisham2013-jpg/OrangeHrm/releases/tag/v1.0.0)**
 
 ---
+
+
+---
+
+## 📁 Project Structure
+
+```text
+OrangeHRM/
+├── src/
+│   ├── main/java/org/example/         # Page Objects & Operational Elements
+│   │   ├── admin/
+│   │   ├── myinfo/
+│   │   ├── pim/
+│   │   ├── time/
+│   │   └── pages/
+│   └── test/java/                     # Execution Scripts & Testing Assertions
+│       ├── base/
+│       ├── employeeDependents/
+│       ├── employeeProfile/
+│       ├── employeeReports/
+│       ├── reuse/
+│       ├── timeSheet/
+│       └── userAssignment/
+├── pom.xml                            # Project Object Model dependencies
+└── Testing.xml                        # TestNG suite mapping distribution
